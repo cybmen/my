@@ -30,6 +30,11 @@ body {
 
 }
 
+/* usable classes */
+.bold {
+    font-weight: bold;
+}
+
 /* navbar start */
 
 h1,
@@ -50,7 +55,7 @@ h3 {
 
 .logo {
     position: absolute;
-    left: 50px;
+    left: -15px;
     top: 15px;
     width: 350px;
     cursor: pointer;
@@ -62,16 +67,16 @@ h3 {
 }
 
 .navbar {
-    position: sticky;
+    position:fixed;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 80%;
     top: 0;
     z-index: 999;
     background-color: transparent;
-    max-width: 1640px;
+    max-width: 1440px;
 
 }
 
@@ -162,9 +167,6 @@ input[type="checkbox" i] {
     border-top:5px solid #fff;
     border-right:5px solid #fff;
   }
-  
-  
-
 
 .background-image img {
     background-size: cover;
@@ -188,12 +190,12 @@ input[type="checkbox" i] {
 }
 
 
-.home-text h1 {
+h1 {
     font-size: 120px;
     color: #4BAA6C;
 }
 
-.home-text h3 {
+h3 {
     font-size: 50px;
 }
 
@@ -237,6 +239,7 @@ input[type="checkbox" i] {
 .about-text h3 {
     font-size: 100px;
     color: #4BAA6C;
+    margin-bottom: 20px;
 }
 .about-image img {
     width: 600px;
@@ -248,7 +251,53 @@ input[type="checkbox" i] {
 }
 
 .about-description p {
-    margin-top: 15px;
+    margin: 10px;
 }
 
+.about-description h3 {
+    font-size: 40px;
+    margin: 5px 0px;
+}
+
+#about-header {
+    margin: 10px;
+}
+
+
+
 /* about end */
+
+
+/* services  */
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 350px;
+    height: 220px;
+    margin: 20px 50px;
+    border: 1px solid #4BAA6C;
+    background-color: rgb(75, 170, 108, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.service p {
+    margin: 10px 0px;
+}
+

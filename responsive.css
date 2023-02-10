@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1000px) {
 
 
-  h1, h3 {
+  h1,
+  h3 {
     margin: 0px 20px;
   }
 
@@ -25,6 +26,7 @@
     width: 100%;
     background-color: transparent;
     height: 90px;
+    position: static;
   }
 
 
@@ -175,18 +177,18 @@
   }
 
 
-  .top {  
+  .top {
     position: fixed;
     right: 0px;
-    bottom: 10px;      
-    margin-right:10px; 
+    bottom: 10px;
+    margin-right: 10px;
     place-self: end;
-    
+
     /* visual styling */
-    width:45px;
-    aspect-ratio:1;
-    background:#4BAA6C;
-    border-radius:10px;
+    width: 45px;
+    aspect-ratio: 1;
+    background: #4BAA6C;
+    border-radius: 10px;
     z-index: 1;
   }
 
@@ -245,22 +247,56 @@
   }
 
   .about-description {
-    margin: 20px;
+    margin: 10px;
   }
-  .about-description p{
-font-size: 22px;  
-}
 
+  .about-description p {
+    font-size: 22px;
+  }
 
   .about-text h3 {
-    font-size: 60px;
+    font-size: 50px;
     color: #4BAA6C;
-    margin: 0px 20px;
   }
 
   .about-image img {
     width: 90%;
     display: block;
-    margin: auto;
+    margin: 20px auto auto auto;
   }
+
+
+
+
+
+  /* services */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 50px 0px;
+  width: 100%;
+}
+
+.services h1 {
+  font-size: 70px;
+}
+.services h3 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.service {
+  width: 90%;
+  height: auto;
+  margin: 10px;
+}
+
+.service p {
+  font-size: 20px;
+}
+
 }
