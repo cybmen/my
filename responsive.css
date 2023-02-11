@@ -1,11 +1,20 @@
-@media only screen and (max-width: 1000px) {
-
-
-  h1,
-  h3 {
-    margin: 0px 20px;
+@media only screen and (max-width: 14400px) {
+  .navbar {
+    width: 100%;
   }
 
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
   .navbar .menu-items {
     width: 100%;
   }
@@ -170,6 +179,70 @@
   /* navbar end*/
 
 
+  .home-text {
+    height: auto;
+    margin: 100px 0px;
+  }
+
+  .home-text h1 {
+    font-size: 60px;
+    padding: 50px;
+  }
+
+  .home-text h3 {
+    font-size: 50px;
+    padding: 50px;
+  }
+
+  .about {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+ 
+  .about-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+.about-text h3 {
+  font-size: 50px;
+}
+
+.about-text {
+  margin: 100px 0px;
+}
+
+.services h1 {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.services h3 {
+  font-size: 30px;
+  margin: 0px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .home-text {
+    margin: 30px 0px;
+  }
+
+  h1,
+  h3 {
+    margin: 0px 20px;
+  }
+
+
+
+
   .background-image img {
     height: 100vh;
     width: 100%;
@@ -213,20 +286,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: auto;
     width: 100%;
     text-align: center;
+    margin: 100px 0px;
   }
 
   .home-text h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: #4BAA6C;
+    padding: 0px;
   }
 
   .home-text h3 {
-    font-size: 40px;
+    font-size: 35px;
+    padding: 0px;
+
   }
 
+  .home-button {
+    font-size: 20px;
+  }
 
   /* about */
 
@@ -242,7 +322,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: auto;
     width: 100%;
   }
 
@@ -251,11 +331,11 @@
   }
 
   .about-description p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .about-text h3 {
-    font-size: 50px;
+    font-size: 40px;
     color: #4BAA6C;
   }
 
@@ -271,32 +351,34 @@
 
   /* services */
 
-.services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  margin: 50px 0px;
-  width: 100%;
-}
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 50px 0px;
+    width: 100%;
+  }
 
-.services h1 {
-  font-size: 70px;
-}
-.services h3 {
-  font-size: 40px;
-  margin: 0px;
-}
+  .services h1 {
+    font-size: 40px;
+  }
 
-.service {
-  width: 90%;
-  height: auto;
-  margin: 10px;
-}
+  .services h3 {
+    font-size: 30px;
+    margin: 0px;
+  }
 
-.service p {
-  font-size: 20px;
-}
+  .service {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .service p {
+    font-size: 20px;
+  }
+
 
 }
